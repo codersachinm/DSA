@@ -1,4 +1,6 @@
-class Solution {
+package src;
+
+class BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {
         int least = prices[0];
         int profit = 0;

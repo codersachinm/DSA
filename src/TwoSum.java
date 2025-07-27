@@ -1,7 +1,12 @@
-class Solution {
+package src;
+
+import java.util.HashMap;
+import java.util.Map;
+
+class TwoSum {
   public int[] twoSum(int[] nums, int target) {
     // {3,6} 9
-    Map < Integer, Integer > numPositionMap = new HashMap < > ();
+    Map< Integer, Integer > numPositionMap = new HashMap< >();
 
     for (int i = 0; i < nums.length; i++) {
       if (numPositionMap.containsKey(target - nums[i])) {
